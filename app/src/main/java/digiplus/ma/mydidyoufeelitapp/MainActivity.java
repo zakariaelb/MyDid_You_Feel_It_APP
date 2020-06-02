@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Event earthquake) {
             super.onPostExecute(earthquake);
+            updateUi(earthquake);
         }
     }
 }
